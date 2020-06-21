@@ -59,6 +59,7 @@ for phoneNum in outgoingCallsList:
     if((phoneNum not in recievingCallslist) and (phoneNum not in outgoingTextsList) and (phoneNum not in recievingTextslist)):
         telemarketersCallslist.append(phoneNum)
 
+        
 
 print("These numbers could be telemarketers: ")
 print(*sorted(telemarketersCallslist), sep='\n')
