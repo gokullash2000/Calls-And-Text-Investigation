@@ -32,6 +32,6 @@ for i in range(len(calls)):
         most_spent_number = calls[i][1]
         most_spent_duration = telephone_numbers[calls[i][1]]
 
-#Print Number
+#Print Statement
 
 print("{} spent the longest time, {} seconds, on the phone during September 2016.".format(most_spent_number, most_spent_duration))
